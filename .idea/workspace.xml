@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="" />
+    <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/src/androidTest/java/com/mind/market/onboarding_domain/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/src/test/java/com/mind/market/onboarding_domain/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/androidTest/java/com/mind/market/onboarding_presentation/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/test/java/com/mind/market/onboarding_presentation/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/androidTest/java/com/mind/market/tracker_data/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/test/java/com/mind/market/tracker_data/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/androidTest/java/com/mind/market/tracker_domain/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/test/java/com/mind/market/tracker_domain/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/androidTest/java/com/mind/market/tracker_presentation/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/test/java/com/mind/market/tracker_presentation/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -121,5 +162,16 @@
       <updated>1644568789032</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
