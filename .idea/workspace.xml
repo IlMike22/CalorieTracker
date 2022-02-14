@@ -1,50 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/navigation/NavControllerExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/src/androidTest/java/com/mind/market/core_ui/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/src/main/java/com/mind/market/core_ui/Dimensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-ui/src/test/java/com/mind/market/core_ui/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/navigation/Route.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/util/UiEvent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/res/values/dimensions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/components/ActionButton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/welcome/WelcomeScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/di/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/data/preferences/Preferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/models/ActivityLevel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/models/Gender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/models/GoalType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/models/UserInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/preferences/IPreferences.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/ui/theme/Theme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/java/Modules.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/java/Modules.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/tracker_presentation/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/tracker_presentation/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +55,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Sealed Class" />
-        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -124,7 +102,11 @@
       <recent name="$PROJECT_DIR$/tracker/tracker_data" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.mind.market.core.data.preferences" />
       <recent name="com.mind.market.core_ui" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.mind.market.core.domain.models" />
     </key>
   </component>
   <component name="RunManager">
