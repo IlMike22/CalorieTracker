@@ -11,8 +11,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.mind.market.core.navigation.Route
+import com.mind.market.onboarding_presentation.activity_level.ActivityLevelScreen
 import com.mind.market.onboarding_presentation.age.AgeScreen
 import com.mind.market.onboarding_presentation.gender.GenderScreen
+import com.mind.market.onboarding_presentation.goal.GoalScreen
+import com.mind.market.onboarding_presentation.height.HeightScreen
+import com.mind.market.onboarding_presentation.weight.WeightScreen
 import com.mind.market.onboarding_presentation.welcome.WelcomeScreen
 import com.plcoding.calorytracker.navigation.navigate
 import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
@@ -47,18 +51,24 @@ class MainActivity : ComponentActivity() {
                             )
                         }
                         composable(Route.HEIGHT) {
-
+                            HeightScreen(
+                                onNavigate = navController::navigate,
+                                scaffoldState = scaffoldState
+                            )
                         }
                         composable(Route.WEIGHT) {
-
-                        }
-                        composable(Route.NUTRIENT_GOAL) {
-
+                            WeightScreen(
+                                onNavigate = navController::navigate,
+                                scaffoldState = scaffoldState
+                            )
                         }
                         composable(Route.ACTIVITY) {
-
+                            ActivityLevelScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.GOAL) {
+                            GoalScreen(onNavigate = navController::navigate)
+                        }
+                        composable(Route.NUTRIENT_GOAL) {
 
                         }
                         composable(Route.TRACKER_OVERVIEW) {
