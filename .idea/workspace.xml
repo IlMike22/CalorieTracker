@@ -14,14 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/activity_level/ActivityLevelScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/activity_level/ActivityLevelViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal/GoalScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal/GoalViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/height/HeightScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/height/HeightViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/weight/WeightScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/weight/WeightViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/di/TrackerDataModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/local/ITrackerDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/local/TrackerDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/local/entity/TrackedFoodEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/remote/IOpenFoodApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/remote/dto/Nutriments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/remote/dto/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_data/src/main/java/com/mind/market/tracker_data/remote/dto/SearchDto.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -35,7 +35,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/age/AgeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/age/AgeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_domain/src/main/java/com/mind/market/onboarding_domain/di/OnboardingDomainModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/src/main/java/com/mind/market/onboarding_domain/di/OnboardingDomainModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_domain/src/main/java/com/mind/market/onboarding_domain/use_case/ValidateNutrients.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_domain/src/main/java/com/mind/market/onboarding_domain/use_case/ValidateNutrients.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal/NutrientGoalViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +75,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Data Class" />
-        <option value="Kotlin Object" />
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Sealed Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -104,16 +110,16 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/activity_level" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/weight" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/height" />
-      <recent name="$PROJECT_DIR$/core-ui" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.mind.market.core.data.preferences" />

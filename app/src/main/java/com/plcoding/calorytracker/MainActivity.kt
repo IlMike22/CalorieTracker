@@ -16,6 +16,7 @@ import com.mind.market.onboarding_presentation.age.AgeScreen
 import com.mind.market.onboarding_presentation.gender.GenderScreen
 import com.mind.market.onboarding_presentation.goal.GoalScreen
 import com.mind.market.onboarding_presentation.height.HeightScreen
+import com.mind.market.onboarding_presentation.nutrient_goal.NutrientGoalScreen
 import com.mind.market.onboarding_presentation.weight.WeightScreen
 import com.mind.market.onboarding_presentation.welcome.WelcomeScreen
 import com.plcoding.calorytracker.navigation.navigate
@@ -69,7 +70,10 @@ class MainActivity : ComponentActivity() {
                             GoalScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.NUTRIENT_GOAL) {
-
+                            NutrientGoalScreen(
+                                onNavigate = navController::navigate,
+                                scaffoldState = scaffoldState
+                            )
                         }
                         composable(Route.TRACKER_OVERVIEW) {
 
