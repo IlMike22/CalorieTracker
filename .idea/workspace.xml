@@ -14,14 +14,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/di/TrackerDomainModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/CalculateMealNutrients.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/DeleteTrackedFood.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/GetFoodsForDate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/SearchFood.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/TrackFood.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/main/java/com/mind/market/tracker_domain/use_case/TrackerUseCases.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/res/drawable/ic_breakfast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/res/drawable/ic_burger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/res/drawable/ic_dinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/res/drawable/ic_lunch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/res/drawable/ic_snack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/Meal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/data/preferences/Preferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/data/preferences/Preferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/preferences/IPreferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mind/market/core/domain/preferences/IPreferences.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +70,11 @@
       <list>
         <option value="valueResourceFile" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Data Class" />
-        <option value="Kotlin Sealed Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Sealed Class" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -90,16 +104,16 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/nutrient_goal" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/activity_level" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/weight" />
-      <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/height" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.mind.market.core.data.preferences" />
