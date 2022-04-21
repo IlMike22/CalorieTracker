@@ -14,15 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/components/UnitDisplay.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/components/NutrientBarInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/components/NutrientsBar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/components/NutrientsHeader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/components/TrackerDaySelector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/components/parseDateText.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core-ui/src/main/java/com/mind/market/core_ui/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/calorytracker/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewScreen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +55,8 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Sealed Class" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
