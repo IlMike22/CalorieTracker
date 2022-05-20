@@ -38,7 +38,7 @@ class SearchViewModel @Inject constructor(
             is SearchEvent.OnAmountForFoodChange -> {
                 state = state.copy(
                     trackableFoods = state.trackableFoods.map { uiState ->
-                        if (uiState.trackableFood == event.food) {
+                        if (uiState.food == event.food) {
                             uiState.copy(
                                 amount = filterOutDigits(event.amount)
                             )
@@ -63,7 +63,7 @@ class SearchViewModel @Inject constructor(
             is SearchEvent.OnToggleTrackableFood -> {
                 state = state.copy(
                     trackableFoods = state.trackableFoods.map { uiState ->
-                        if (uiState.trackableFood == event.food) {
+                        if (uiState.food == event.food) {
                             uiState.copy(
                                 isExpanded = !uiState.isExpanded
                             )
@@ -110,11 +110,11 @@ class SearchViewModel @Inject constructor(
     private fun trackFood(event: SearchEvent.OnTrackFoodClick) {
         viewModelScope.launch {
             val uiState = state.trackableFoods.find { uiState ->
-                uiState.trackableFood == event.food
+                uiState.food == event.food
             }
 
             trackerUseCases.trackFood(
-                food = uiState?.trackableFood ?: return@launch,
+                food = uiState?.food ?: return@launch,
                 amount = uiState.amount.toIntOrNull() ?: return@launch,
                 mealType = event.mealType,
                 date = event.date
