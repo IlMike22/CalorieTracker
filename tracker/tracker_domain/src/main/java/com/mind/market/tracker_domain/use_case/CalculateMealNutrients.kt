@@ -1,6 +1,5 @@
 package com.mind.market.tracker_domain.use_case
 
-import com.mind.market.core.data.preferences.Preferences
 import com.mind.market.core.domain.models.ActivityLevel
 import com.mind.market.core.domain.models.Gender
 import com.mind.market.core.domain.models.GoalType
@@ -18,15 +17,16 @@ class CalculateMealNutrients(
             trackedFood.mealType
         }.mapValues { entry ->
             val mealType = entry.key
-            val trackedFoods = entry.value
+            val foods = entry.value
             MealNutrients(
-                carbs = trackedFoods.sumOf { trackedFood -> trackedFood.carbs },
-                protein = trackedFoods.sumOf { trackedFood -> trackedFood.protein },
-                fat = trackedFoods.sumOf { trackedFood -> trackedFood.fat },
-                calories = trackedFoods.sumOf { trackedFood -> trackedFood.calories },
+                carbs = foods.sumOf { trackedFood -> trackedFood.carbs },
+                protein = foods.sumOf { trackedFood -> trackedFood.protein },
+                fat = foods.sumOf { trackedFood -> trackedFood.fat },
+                calories = foods.sumOf { trackedFood -> trackedFood.calories },
                 mealType = mealType
             )
         }
+
         val totalCarbs = allNutrients.values.sumOf { mealNutrients -> mealNutrients.carbs }
         val totalProtein = allNutrients.values.sumOf { mealNutrients -> mealNutrients.protein }
         val totalFat = allNutrients.values.sumOf { mealNutrients -> mealNutrients.fat }

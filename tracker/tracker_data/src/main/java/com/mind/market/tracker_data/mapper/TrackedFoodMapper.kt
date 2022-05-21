@@ -30,7 +30,7 @@ fun TrackedFood.toTrackedFoodEntity(): TrackedFoodEntity {
         carbs = carbs,
         fat = fat,
         type = mealType.name,
-        dayOfMonth = date.dayOfYear,
+        dayOfMonth = date.dayOfMonth,
         month = date.monthValue,
         year = date.year,
         id = id
