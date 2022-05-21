@@ -12,6 +12,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.mind.market.core.domain.preferences.IPreferences
 import com.mind.market.core.navigation.Route
 import com.mind.market.onboarding_presentation.activity_level.ActivityLevelScreen
 import com.mind.market.onboarding_presentation.age.AgeScreen
@@ -26,11 +27,17 @@ import com.mind.market.tracker_presentation.tracker_overview.TrackerOverviewScre
 import com.plcoding.calorytracker.navigation.navigate
 import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    @Inject
+    lateinit var preferences: IPreferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val showOnboarding = preferences.loadShouldShowOnboarding()
+
         setContent {
             CaloryTrackerTheme {
                 val navController = rememberNavController()
@@ -41,7 +48,9 @@ class MainActivity : ComponentActivity() {
                 ) {
                     NavHost(
                         navController = navController,
-                        startDestination = Route.WELCOME
+                        startDestination = if (showOnboarding) {
+                            Route.WELCOME
+                        } else Route.TRACKER_OVERVIEW
                     ) {
                         composable(Route.WELCOME) {
                             WelcomeScreen(onNavigate = navController::navigate)

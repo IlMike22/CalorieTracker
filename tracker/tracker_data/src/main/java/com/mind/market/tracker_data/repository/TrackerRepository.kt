@@ -46,7 +46,7 @@ class TrackerRepository(
 
     override fun getFoodsForDate(date: LocalDate): Flow<List<TrackedFood>> {
         return dao.getFoodsForDay(
-            day = date.dayOfYear,
+            day = date.dayOfMonth,
             month = date.monthValue,
             year = date.year
         ).map { trackedFoodEntities ->

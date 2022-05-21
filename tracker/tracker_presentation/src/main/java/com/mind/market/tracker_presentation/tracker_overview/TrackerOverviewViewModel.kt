@@ -5,7 +5,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mind.market.core.data.preferences.Preferences
 import com.mind.market.core.domain.preferences.IPreferences
 import com.mind.market.core.navigation.Route
 import com.mind.market.core.util.UiEvent
@@ -34,6 +33,7 @@ class TrackerOverviewViewModel @Inject constructor(
     val uiEvent = _uiEvent.receiveAsFlow()
 
     init {
+        refreshFoods()
         preferences.saveShouldShowOnboarding(false)
     }
 
