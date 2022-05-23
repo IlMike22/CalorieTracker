@@ -73,6 +73,7 @@ fun TrackedFoodItem(
                     )
                 )
         )
+
         Spacer(modifier = Modifier.width(spacing.spaceMedium))
 
         Column(
@@ -84,6 +85,7 @@ fun TrackedFoodItem(
                 overflow = TextOverflow.Ellipsis,
                 maxLines = 2
             )
+
             Spacer(modifier = Modifier.height(spacing.spaceExtraSmall))
 
             Text(

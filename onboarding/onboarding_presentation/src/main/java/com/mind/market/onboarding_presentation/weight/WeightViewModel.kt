@@ -6,8 +6,6 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mind.market.core.domain.preferences.IPreferences
-import com.mind.market.core.domain.use_case.FilterOutDigits
-import com.mind.market.core.navigation.Route
 import com.mind.market.core.util.UiEvent
 import com.mind.market.core.util.UiText
 import com.mind.market.onboarding_presentation.R
@@ -45,7 +43,7 @@ class WeightViewModel @Inject constructor(
             }
 
             preferences.saveWeight(weightNumber)
-            _uiEvent.send(UiEvent.Navigate(Route.ACTIVITY))
+            _uiEvent.send(UiEvent.Success)
         }
     }
 }

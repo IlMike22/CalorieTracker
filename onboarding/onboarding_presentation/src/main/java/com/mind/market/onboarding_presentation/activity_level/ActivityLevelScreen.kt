@@ -14,7 +14,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.mind.market.core.R
 import com.mind.market.core.domain.models.ActivityLevel
-import com.mind.market.core.domain.models.Gender
 import com.mind.market.core.util.UiEvent
 import com.mind.market.core_ui.LocalSpacing
 import com.mind.market.onboarding_presentation.components.ActionButton
@@ -23,14 +22,14 @@ import kotlinx.coroutines.flow.collect
 
 @Composable
 fun ActivityLevelScreen(
-    onNavigate: (UiEvent.Navigate) -> Unit,
+    onNextClick: () -> Unit,
     viewModel: ActivityLevelViewModel = hiltViewModel()
 ) {
     val spacing = LocalSpacing.current
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { event ->
             when (event) {
-                is UiEvent.Navigate -> onNavigate(event)
+                is UiEvent.Success -> onNextClick()
                 else -> Unit
             }
         }

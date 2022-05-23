@@ -23,8 +23,7 @@ import com.mind.market.tracker_presentation.tracker_overview.TrackerOverviewStat
 
 @Composable
 fun NutrientsHeader(
-    state: TrackerOverviewState,
-    modifier: Modifier = Modifier
+    state: TrackerOverviewState
 ) {
     val spacing = LocalSpacing.current
     val animatedCaloryCount = animateIntAsState(
@@ -58,6 +57,7 @@ fun NutrientsHeader(
                 unitColor = MaterialTheme.colors.onPrimary,
                 modifier = Modifier.align(Alignment.Bottom)
             )
+
             Column {
                 Text(
                     text = stringResource(id = R.string.your_goal),
@@ -66,7 +66,7 @@ fun NutrientsHeader(
                 )
 
                 UnitDisplay(
-                    amount = animatedCaloryCount.value,
+                    amount = state.caloriesGoal,
                     unit = stringResource(id = R.string.kcal),
                     amountColor = MaterialTheme.colors.onPrimary,
                     amountTextSize = 40.sp,
@@ -76,7 +76,9 @@ fun NutrientsHeader(
 
             }
         }
+
         Spacer(modifier = Modifier.height(spacing.spaceSmall))
+
         NutrientsBar(
             carbs = state.totalCarbs,
             proteins = state.totalProtein,
@@ -87,7 +89,9 @@ fun NutrientsHeader(
                 .fillMaxWidth()
                 .height(30.dp)
         )
+
         Spacer(modifier = Modifier.height(spacing.spaceLarge))
+
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
