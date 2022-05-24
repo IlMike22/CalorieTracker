@@ -14,10 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/remote/InvalidFoodResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/remote/ValidFoodResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/repository/TrackerRepositoryTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/tracker_overview/TrackerOverviewScreen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       <recent name="com.mind.market.onboarding_presentation.height" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrackerRepositoryTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="CaloryTracker.app" />
       <option name="DEPLOY" value="true" />
