@@ -14,7 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88614a5-39f3-47fd-8f84-0a7a61007392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker/tracker_domain/src/test/java/com/mind/market/tracker_domain/use_case/CalculateMealNutrientsUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/remote/InvalidFoodResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/remote/ValidFoodResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mind/market/tracker_data/repository/TrackerRepositoryTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/michaelwidlok/.android/avd/Pixel_3_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -53,8 +54,9 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Sealed Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -88,6 +90,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tracker/tracker_presentation/src/main/java/com/mind/market/tracker_presentation/components" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
@@ -99,6 +104,9 @@
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/goal" />
       <recent name="$PROJECT_DIR$/onboarding/onboarding_presentation/src/main/java/com/mind/market/onboarding_presentation/activity_level" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.plcoding.calorytracker.navigation" />
       <recent name="com.mind.market.core.data.preferences" />
@@ -108,6 +116,9 @@
       <recent name="com.mind.market.core_ui" />
       <recent name="com.mind.market.onboarding_presentation" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mind.market.tracker_data.repository" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.mind.market.tracker_domain.use_case" />
       <recent name="com.mind.market.onboarding_presentation.goal" />
@@ -116,7 +127,7 @@
       <recent name="com.mind.market.onboarding_presentation.height" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculateMealNutrientsUnitTest">
+  <component name="RunManager" selected="Gradle.TrackerRepositoryTest">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="CaloryTracker.app" />
       <option name="DEPLOY" value="true" />
@@ -216,8 +227,30 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TrackerRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mind.market.tracker_data.repository.TrackerRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TrackerRepositoryTest" />
         <item itemvalue="Gradle.CalculateMealNutrientsUnitTest" />
         <item itemvalue="Gradle.CalculateMealNutrientsUnitTest.Calories for breakfast properly calculated" />
       </list>
